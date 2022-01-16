@@ -4,6 +4,7 @@ html {
 
 body {
   font-size: 16px;
+  justify-content: center;
 }
 
 h1 {
@@ -17,11 +18,14 @@ h1 {
 header {
   display: flex;
   height: 130px;
-  width: 100%;
+  width: 95%;
   padding: 0px;
+  margin: auto;
   background-color: lightseagreen;
-  margin: 0;
-  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid lightseagreen;
+  border-radius: 10px;
 }
 
 .logo {
@@ -30,5 +34,3 @@ header {
   align-self: flex-start;
   padding-right: 25%;
 }
-
-@media screen and;
