@@ -73,7 +73,8 @@ li {
   padding: 15px;
 }
 
-li a:link {
+li a:link,
+a:visited {
   text-decoration: none;
   color: rgb(32, 110, 107);
   border: 5px solid lightseagreen;
