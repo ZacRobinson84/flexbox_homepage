@@ -217,7 +217,7 @@ li a:hover {
 }
 
 .our-team {
-  background-image: url(/resources/images/cat_litter.jpg);
+  background-image: url(./images/cat_litter.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
