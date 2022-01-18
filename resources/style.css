@@ -221,29 +221,23 @@ li a:hover {
   background-size: cover;
 }
 
-.our-team-images img {
-  width: 300px;
-  height: auto;
-  margin: 30px;
-}
-
 #our-team-photo-container {
   align-items: flex-start;
   justify-content: center;
 }
 
 #our-team-photo {
-  background-color: rgb(32, 110, 107);
-  border: 3px solid rgb(32, 110, 107);
+  background-color: white;
+  border: 3px solid white;
 }
 
 #our-team-photo p {
-  background-color: rgb(50, 146, 143);
-  border-radius: 10px;
+  font-family: "Lexend Exa", sans-serif;
   font-size: 1.5rem;
   color: black;
   margin: 0 30px 15px 30px;
 }
 
-#zac-photo {
+#our-team-name {
+  font-weight: 700;
 }
