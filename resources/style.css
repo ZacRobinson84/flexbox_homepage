@@ -217,7 +217,7 @@ li a:hover {
 }
 
 .our-team {
-  background-image: url(/resources/images/science_lab.jpg);
+  background-image: url(/resources/images/cat_litter.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -244,7 +244,7 @@ li a:hover {
 }
 
 footer {
-  background-color: darkslategray;
+  background-color: rgb(25, 69, 165);
   margin: 0;
   text-align: center;
 }
@@ -252,7 +252,7 @@ footer {
 footer h1 {
   font-family: "Righteous", cursive;
   font-size: 2.5rem;
-  color: rgb(80, 145, 145);
+  color: rgb(101, 144, 235);
   margin: 0;
 }
 
@@ -265,6 +265,6 @@ footer p {
 
 #copywrite {
   font-size: 1rem;
-  color: rgb(80, 145, 145);
+  color: rgb(101, 144, 235);
   margin-top: 30px;
 }
