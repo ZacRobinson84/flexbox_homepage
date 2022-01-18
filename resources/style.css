@@ -4,8 +4,10 @@ html {
 
 body {
   font-size: 16px;
+}
 
-  background-image: linear-gradient(white, rgb(32, 110, 107));
+.gradient-background {
+  background-image: linear-gradient(rgb(204, 203, 203), rgb(32, 110, 107));
   background-repeat: no-repeat;
 }
 
@@ -142,5 +144,56 @@ li a:hover {
   }
   .reviews p {
     font-size: 1rem;
+    margin: 25px;
   }
+}
+
+.portfolio h1 {
+  font-family: "Righteous", cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(37, 48, 48);
+  margin: 10px;
+}
+
+.portfolio h2 {
+  font-family: "Righteous", cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(37, 48, 48);
+  padding: 0;
+  margin: 25px;
+}
+
+.portfolio-photos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+  margin-top: 60px;
+}
+
+.image-with-text {
+  text-align: justify;
+  width: 280px;
+  border: 3px solid lightseagreen;
+  border-radius: 20px;
+  margin: 25px;
+}
+
+.image-with-text img {
+  margin: 0 auto;
+  padding: 15px;
+  width: 250px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.image-with-text p {
+  font-family: "Righteous", cursive;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  margin: 0 0 10px 0;
 }
