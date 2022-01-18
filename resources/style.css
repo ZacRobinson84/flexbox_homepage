@@ -241,3 +241,29 @@ li a:hover {
 #our-team-name {
   font-weight: 700;
 }
+
+footer {
+  background-color: darkslategray;
+  margin: 0;
+  text-align: center;
+}
+
+footer h1 {
+  font-family: "Righteous", cursive;
+  font-size: 2.5rem;
+  color: rgb(80, 145, 145);
+  margin: 0;
+}
+
+footer p {
+  font-family: "Righteous", cursive;
+  font-size: 1.5rem;
+  color: white;
+  margin: 10px;
+}
+
+#copywrite {
+  font-size: 1rem;
+  color: rgb(80, 145, 145);
+  margin: 30px;
+}
